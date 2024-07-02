@@ -47,11 +47,11 @@
 
         mac {
             bindings = <
-&trans  &trans  &trans  &trans        &trans              &trans  &trans                                      &trans  &trans  &trans               &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans              &trans  &to 0                                       &trans  &trans  &trans               &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &hm LEFT_COMMAND F  &trans  &tog 0  &trans  &trans      &trans  &trans  &trans  &trans  &hm RIGHT_COMMAND J  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans              &trans                  &trans      &trans                  &trans  &trans               &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp LEFT_ALT  &kp LEFT_COMMAND            &trans  &trans  &trans      &trans  &trans  &trans          &trans               &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans              &trans  &trans                                      &trans  &trans  &trans              &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans              &trans  &to 0                                       &trans  &trans  &trans              &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &hm LEFT_COMMAND F  &trans  &tog 0  &trans  &trans      &trans  &trans  &trans  &trans  &hm LEFT_COMMAND J  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans              &trans                  &trans      &trans                  &trans  &trans              &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp LEFT_ALT  &kp LEFT_COMMAND            &trans  &trans  &trans      &trans  &trans  &trans          &trans              &trans  &trans  &trans  &trans
             >;
         };
 
@@ -67,11 +67,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2     &kp F3  &kp F4               &kp F5         &kp F6        &tog 2                                          &mo 4   &kp F7  &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
-&trans  &trans     &trans  &mt LC(ENTER) ENTER  &trans         &trans        &caps_word                                      &none   &trans  &kp HOME  &kp UP_ARROW  &kp END    &trans   &trans
-&trans  &kp MINUS  &trans  &kp DEL              &kp SLASH      &kp QUESTION  &none       &trans  &trans      &trans  &trans  &none   &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans   &trans
-&trans  &trans     &trans  &trans               &kp LS(UNDER)  &trans                            &trans      &trans                  &trans  &none     &trans        &trans     &trans   &trans
-&trans  &trans     &trans  &trans               &trans                       &trans      &trans  &trans      &trans  &trans  &trans          &trans    &trans        &trans     &trans   &trans
+&kp F1  &kp F2     &kp F3  &kp F4               &kp F5         &kp F6        &tog 2                                          &mo 4   &kp F7      &kp F8    &kp F9        &kp F10    &kp F11  &kp F12
+&trans  &trans     &trans  &mt LC(ENTER) ENTER  &trans         &trans        &caps_word                                      &none   &trans      &kp HOME  &kp UP_ARROW  &kp END    &trans   &trans
+&trans  &kp MINUS  &trans  &kp DEL              &kp SLASH      &kp QUESTION  &none       &trans  &trans      &trans  &trans  &none   &trans      &kp LEFT  &kp DOWN      &kp RIGHT  &trans   &trans
+&trans  &trans     &trans  &trans               &kp LS(UNDER)  &trans                            &trans      &trans                  &kp ESCAPE  &none     &trans        &trans     &trans   &trans
+&trans  &trans     &trans  &trans               &trans                       &trans      &trans  &trans      &trans  &trans  &trans              &trans    &trans        &trans     &trans   &trans
             >;
         };
 
